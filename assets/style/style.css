@@ -1,0 +1,310 @@
+body{
+    font-family: 'Manjari', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.main{
+    background-color: rgba(110, 47, 192, 0.4);
+
+}
+.help{
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow: hidden;
+    background-image: url(../imgs/des_help.png);
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    min-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.main .wrapper{
+    background-image: url("../imgs/home_back.png");
+    background-size: cover;
+}
+.help .wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    z-index: 5;
+    position: sticky;
+    width: 100%;
+    
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    margin-right: 15%;
+}
+.links a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    margin-top: 30px;
+}
+.light_blue{
+    position: absolute;
+    width: 20vw;
+    height: 110vh;
+    background-color: rgb(238, 249, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    top: -5vh;
+    left: 12.5vw;
+    transform: skewX(-10deg);
+    z-index: 0;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+}
+.logo_name{
+    font-family: 'Oooh Baby', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    text-shadow: 0px 0px 3px black;
+   
+}
+.light_blue .text{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 30px;
+}
+.purple{
+    color: blueviolet;
+}
+.blue{
+    color: rgb(51, 139, 240);
+}
+.home_img{
+    width: 45%;
+    position: absolute;
+    right: 10%;
+}
+
+
+.form_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.form_name hr{
+    width: 20%;
+    height: 2px;
+    background-color: black;
+    margin: 0;
+}
+.form_name p{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Manjari', sans-serif;
+    margin: 50px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+.buttons div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.buttons img{
+    height: 5vh;
+}
+.buttons p{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    line-height: 1.5;
+    user-select: none;
+}
+#email_form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-top: 20px;
+}
+#email_form input{
+    margin-bottom: 15px;
+    height: 5vh;
+    width: 45%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: 2px solid rgb(70, 0, 132);
+    font-size: 22px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+#email_form textarea{
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: 2px solid rgb(70, 0, 132);
+    font-size: 22px;
+    padding-left: 25px;
+    box-sizing: border-box;
+}
+.send{
+    width: 100%;
+    margin-top: 5vh;
+}
+.send button{
+    width: 80px;
+    height: 40px;
+    background-color: white;
+    background-image: url(../imgs/button_send.png);
+    background-size: cover;
+    background-position: center;
+    float: right;
+    border-radius: 5px;
+    border: 2px solid rgb(70, 0, 132);
+}
+#number_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 80%;
+    margin-top: 20px;
+}
+#number_form h1{
+    font-size: 38px;
+}
+#number_form p{
+    text-align: center;
+    font-size: 25px;
+}
+#assistent_form{
+    width: 30%;
+    height: 60vh;
+    background-color: white;
+    border: 1px solid rgba(10, 161, 209, 0.5);
+    margin-top: 35px;
+    position: relative;
+    border-top-right-radius: 75px;
+    overflow: hidden;
+}
+#assistent_form .header_assistent{
+    width: 100%;
+    height: 15%;
+    background-image: url(../imgs/assis_header.png);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#assistent_form .header_assistent p{
+    margin: 0;
+    padding: 0;
+    color: whitesmoke;
+}
+#assistent_form .header_assistent #online{
+    color: rgb(2, 237, 60);
+}
+#assistent_form .messages{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#assistent_form .messages p{
+    margin: 0;
+    padding: 0;
+}
+#assistent_form .other{
+    width: 95%;
+    text-align: start;
+}
+#assistent_form .other p{
+    float: left;
+    background-color: rgb(95, 181, 234);
+    border-radius: 5px;
+    padding: 10px;
+}
+#assistent_form .self{
+    width: 95%;
+    text-align: end;
+}
+#assistent_form .self p{
+    float: right;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
+}
+#assistent_form .send_message{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 10%;
+    border-top: 1px solid grey;
+}
+#assistent_form .send_message input{
+    width: 80%;
+    height: 90%;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    outline: none;
+    padding-left: 20px;
+}
+#assistent_form .send_message img{
+    height: 7vh;
+    rotate: -90deg;
+    position: absolute;
+    right: -5vh;
+    cursor: pointer;
+}
