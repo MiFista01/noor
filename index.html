@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='assets/style/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assets/style/mob_style.css'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100;400;700&family=Oooh+Baby&display=swap" rel="stylesheet">
@@ -15,12 +15,12 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="home">
+        <div class="home" page="0">
             <header>
                 <div class="links">
-                    <p>Home</p>
-                    <p>Help</p>
-                    <p>FAQ</p>
+                    <p page="0" class="pages">Home</p>
+                    <p page="1" class="pages">Help</p>
+                    <p page="2" class="pages">FAQ</p>
                 </div>
             </header>
             <main>
@@ -37,7 +37,7 @@
             </main>
         </div>
         
-        <div class="help">
+        <div class="help" page="1">
             <div class="form_name">
                 <hr><p>Help</p><hr>
             </div>
@@ -76,7 +76,7 @@
                 </div>
             </form>
         </div>
-        <div class="faq">
+        <div class="faq" page="2">
             <header>
                 <h1>Answers you looking for</h1>
             </header>
