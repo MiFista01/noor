@@ -1,0 +1,204 @@
+body{
+    font-family: 'Manjari', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.button_down, .button_up{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+.button_down img, .button_up img{
+    height: 5vh;
+}
+.button_down{
+    bottom: 0px;
+}
+.button_up{
+    top: 0px;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(111, 47, 192, 0.4);
+    background-image: url("../imgs/home_back.png");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+}
+.home header{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    z-index: 5;
+}
+.home .logo{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-left: 8%;
+    z-index: inherit;
+}
+.home .logo p{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    margin-top: 30%;
+    font-family: 'Oooh Baby', cursive;
+    font-weight: 900;
+    font-size: 200%;
+    width: 150%;
+    text-align: center;
+}
+.home .logo img{
+    width: 100%;
+}
+.home .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    padding: 5%;
+    z-index: inherit;
+}
+.home .links p{
+    margin-left: 10%;
+    font-size: 130%;
+    font-weight: bold;
+}
+.home main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.light_blue{
+    background-color: #EEF9FF;
+    width: 70%;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    transform: skewX(-8.75deg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.light_blue p{
+    font-size: 320%;
+    font-weight: bold;
+    margin-top: 30%;
+}
+.home_img{
+    width: 120%;
+    z-index: 2;
+    transform: skewX(8.75deg);
+}
+.help{
+    width: 100vw;
+    height: fit-content;
+    min-height: 100vh;
+    background-image: url("../imgs/des_help.png");
+    background-size: cover;
+    background-position: center;
+}
+.form_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+.form_name p{
+    font-size: 300%;
+    font-weight: bold;
+}
+.form_name hr{
+    width: 30%;
+    height: 3px;
+    background-color: black;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2vh;
+}
+.buttons div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-height: 15vh;
+    border: 1px solid black;
+    margin: 2%;
+    padding: 2%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.buttons div img{
+    height: 55px;
+}
+.buttons div p{
+    font-size: 250%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-left: 5%;
+    margin-top: 2%;
+    
+}
+#email_form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#email_form input{
+    width: 80%;
+    height: 45px;
+    background: none;
+    margin-top: 5%;
+    font-size: 40px;
+    border:  2px solid #4A0084;
+    border-radius: 10px;
+}
+#email_form textarea{
+    resize: none;
+    background: none;
+    font-size: 35px;
+    width: 80%;
+    height: 200px;
+    margin-top: 5%;
+    border:  2px solid #4A0084;
+    border-radius: 10px;
+}
+.send button{
+    width: 125px;
+    height: 60px;
+    margin-top: 5%;
+    background: url("../imgs/button_send.png");
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    border: 2px solid #4A0084;
+    border-radius: 10px;
+}

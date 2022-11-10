@@ -5,8 +5,7 @@ $(document).ready(function () {
             $(i).slideUp(0);
         }
     }
-    $(".home").slideDown(0);
-    $("footer").slideDown(0);
+    $(".help").slideDown(0);
     $("#button_down").click(function (e) { 
         e.preventDefault();
         $("div[page='"+page+"']").slideUp(200,()=>{
